@@ -14,7 +14,7 @@ Human Images
 wget http://vis-www.cs.umass.edu/lfw/lfw.tgz; tar -xvzf lfw.tgz; rm lfw.tgz
 
 
-##CNN architecture
+### CNN architecture
 
 I decided to experiment with the Resnet50 network. I passed the bottleneck features into a GlobalAveragePooling2D layer, which was then followed by a Dropout layer with a fairly large rate. This did a decent job helping with the overfitting issue. 
 The data was then passed into a Dense layer of 133 nodes, 1 for each breed, with a softmax activation. i used Adamax with learning rate of 0.002 which allows slow but steady learning.
