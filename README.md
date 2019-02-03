@@ -8,10 +8,10 @@ The code is written in Python 3 and Keras with Tensorflow backend all presented 
 If you'd like to use this notebook to do any re-training on the dataset you can grab it at the links below.
 
 Dog Images
-wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip; unzip dogImages.zip; rm dogImages.zip
+`wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip; unzip dogImages.zip; rm dogImages.zip`
 
 Human Images
-wget http://vis-www.cs.umass.edu/lfw/lfw.tgz; tar -xvzf lfw.tgz; rm lfw.tgz
+`wget http://vis-www.cs.umass.edu/lfw/lfw.tgz; tar -xvzf lfw.tgz; rm lfw.tgz`
 
 
 ### CNN architecture
